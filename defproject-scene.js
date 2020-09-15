@@ -7,10 +7,10 @@ const mysql = require("mysql");
 const { leave } = Stage;
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "practice",
+    host: "localhost",
+    user: "u1153080_default",
+    password: "Z7FBNsk!",
+    database: "u1153080_default",
 });
 
 connection.query("SELECT * FROM `schedule`", (err, res) => console.log(err));

@@ -8,7 +8,6 @@ const { leave } = Stage;
 
 const connection = mysql.createConnection({
     host: "localhost",
-    port: 4000,
     user: "u1153080_default",
     password: "Z7FBNsk!",
     database: "u1153080_default",

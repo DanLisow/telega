@@ -7,10 +7,11 @@ const mysql = require("mysql");
 const { leave } = Stage;
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "host1818141",
-  password: "xDL2BiuRFf",
-  database: "host1818141",
+    host: "localhost",
+    port: 4000,
+    user: "u1153080_default",
+    password: "Z7FBNsk!",
+    database: "u1153080_default",
 });
 
 function contactsSceneGenerate() {
